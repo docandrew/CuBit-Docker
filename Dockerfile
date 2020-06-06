@@ -6,6 +6,8 @@ ENV PATH=/opt/gnat/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/
 
 RUN apt-get update && \
     apt-get install -y \
+        yasm \
+        libncurses5 \
         xorriso \
         grub-pc-bin \
         grub-common && \
